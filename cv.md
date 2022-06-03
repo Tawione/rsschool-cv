@@ -7,6 +7,7 @@
 * Email: z.dmitry.work@gmail.com
 * GitHub: Tawione
 * Discord: Tawione#1786
+* Telegram: Tawi
 -----—
 ## about me:
 I am 25 years old, I live in Vitebsk. In my free time I do sport. At the moment I am interested in web development and I am moving in this direction.
