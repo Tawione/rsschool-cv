@@ -15,6 +15,7 @@ my strengths.
 1. teamwork.
 2. discipline.
 3. patience.
+4. honesty.
 -----—
 ## Skills:
 1. JS basic
