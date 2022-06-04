@@ -1,1 +1,1 @@
-# rsschool-cv
+https://tawione.github.io/rsschool-cv/
