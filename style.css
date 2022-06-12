@@ -103,3 +103,7 @@ html {
   .contacts {
     list-style: none;
   }
+  
+  .my-image {
+    border-radius: 50%;
+  }
