@@ -1,5 +1,11 @@
 body {
     font-family: 'Roboto Serif', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0; 
+    padding: 0;
 }
 
 * {
@@ -7,28 +13,45 @@ body {
   }
 
 .header {
-    border: 1px solid rgb(0, 0, 0);
-    margin: 30px;
+    border: 1px solid #9596b9;
+    background-color: #9596b9;
+    border-radius:  50%;
+    margin: 0 100px 0 100px;
+    text-align: center;
 }
 
+
 .main {
-    border: 1px solid rgb(0, 0, 0);
-    margin: 100px 100px 0 100px;
+    border: 1px solid #9596b9;
+    background-color: #9596b9;
+    border-radius: 5%;
+    margin: 10px 100px 0 100px;
+}
+
+.nav-link {
+  color: black;
+}
+
+.nav-link:hover {
+  color: blue;
 }
  
 .footer {
-    border: 1px solid rgb(5, 5, 5);
+    border: 1px solid #9596b9;
+    background-color: #9596b9;
+    border-radius: 5%;
     margin: 0 100px 0 100px;
 }
 
-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    min-height: 100vh;
-    margin: 0; 
-    padding: 0;
-  }
+.rss-logo {
+  padding: 100px;
+}
+
+.my-name {
+  font-weight: bolder;
+  font-size: 50px;
+  text-align: center;
+}
 
   .container {
     max-width: 1440px;
@@ -43,6 +66,8 @@ html {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    float: left;
+    margin-left: 150px;
   }
 
   .nav-list {
@@ -69,11 +94,17 @@ html {
   }
 
   .code {
-    background-color: rgb(193, 194, 147);
+    border: 1px solid aliceblue;
+    border-radius: 10%;
+    margin: 0 700px 0 10px;
+    background-color: aliceblue;
+    padding-left: 20px;
+    font-size: 18px;
   }
 
   .my-image {
-    float: center;
+    position: relative;
+    float: left;
     margin: 0 0 10px 10px;
   }
 
@@ -85,14 +116,6 @@ html {
     color: rgb(5, 36, 175);
   }
 
-  .main-container {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .section {
-    width: 50%;
-  }
 
   @media (max-width: 768px) {
     .section {
@@ -101,9 +124,68 @@ html {
   }
 
   .contacts {
+    border: 1px solid aliceblue;
+    border-radius: 10%;
     list-style: none;
+    margin: 0 100px 0 900px;
+    background-color: aliceblue;
+  }
+
+  .about-me {
+    border: 1px solid aliceblue;
+    border-radius: 10%;
+    list-style: none;
+    margin: 0 700px 0 10px;
+    background-color: aliceblue;
+    padding-left: 20px;
+  }
+
+  .my-strengths {
+    font-size: 140%;
+    padding: 0 0 0 10px;
   }
   
+ .my-strenghts-lis-1 {
+  list-style: none;
+  padding: 10px 0 0 100px;
+ }
+
+ .my-strenghts-lis-2 {
+  list-style: none;
+  padding: 10px 0 0 200px;
+ }
+
+ .my-strenghts-lis-3 {
+  list-style: none;
+  padding: 10px 0 0 300px;
+ }
+
+ .my-strenghts-lis-4 {
+  list-style: none;
+  padding: 10px 0 0 400px;
+ }
+
+ .skills {
+  border: 1px solid aliceblue;
+  border-radius: 13%;
+  margin: 0 100px 0 900px;
+  background-color: aliceblue;
+ }
+
+ .skills-word {
+  padding: 0 0 0 100px;
+ }
+
   .my-image {
     border-radius: 50%;
   }
+
+  .git-link {
+    float: right;
+  }
+  
+  .year {
+    text-align: center;
+    font-size: 100px;
+  }
+
