@@ -1,5 +1,5 @@
 html{
-  background-color:rgb(16, 36, 53);
+  background-color:rgb(76, 112, 143);
 }
 
 body {
@@ -28,7 +28,8 @@ body {
 .main {
   border: 1px solid #9596b9;
   background-color: #9596b9;
-  margin: 0 100px -75px 100px;
+  margin: 5px 100px -75px 100px;
+  z-index: 2;
 }
 
 .nav-link {
@@ -43,10 +44,10 @@ color: blue;
   border: 1px solid #9596b9;
   background-color: #9596b9;
   border-radius: 25%;
-  margin: 0 100px 0 100px;
+  margin: 0 100px 100px 100px;
   box-sizing: border-box;
   padding: 0 100px 0 100px;
-  /* Свойство сверху */
+  z-index:  1;
 }
 
 .my-name {
@@ -101,7 +102,7 @@ html {
   border: 1px solid rgb(103, 164, 221);
   border-radius: 10%;
   margin: 0 700px 0 10px;
-  background-color: rgb(103, 164, 221);
+  background-color: rgb(136, 179, 219);
   padding-left: 20px;
   font-size: 18px;
 }
@@ -136,11 +137,11 @@ html {
 }
 
 .about-me {
-  border: 1px solid rgb(103, 164, 221)e;
+  border: 1px solid rgb(136, 179, 219);
   border-radius: 10%;
   list-style: none;
   margin: 0 700px 0 10px;
-  background-color: rgb(103, 164, 221);
+  background-color: rgb(136, 179, 219);
   padding-left: 20px;
 }
 
@@ -170,10 +171,10 @@ padding: 10px 0 0 400px;
 }
 
 .skills {
-border: 1px solid rgb(229, 255, 0);
+border: 1px solid rgb(246, 248, 116);
 border-radius: 13%;
 margin: 0 100px 0 900px;
-background-color: rgb(229, 255, 0);
+background-color: rgb(246, 248, 116);
 }
 
 .skills-word {
@@ -190,11 +191,11 @@ padding: 0 0 0 100px;
 }
 
 .education {
-  border: 1px solid aliceblue;
+  border: 1px solid rgb(246, 248, 116);
   border-radius: 10%;
   list-style: none;
   margin: 0 10px 0 800px;
-  background-color: aliceblue;
+  background-color: rgb(246, 248, 116);
   padding: 10px 0 10px 10px;
 }
 
@@ -203,11 +204,11 @@ padding: 0 0 0 100px;
 }
 
 .languages {
-  border: 1px solid rgb(229, 255, 0);
+  border: 1px solid aliceblue;
   border-radius: 10%;
   list-style: none;
   margin: 0 800px 50px 10px;
-  background-color: rgb(229, 255, 0);
+  background-color: aliceblue;
   padding: 10px 0 10px 10px;
 }
 
