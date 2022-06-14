@@ -1,0 +1,231 @@
+html{
+  background-color:rgb(76, 112, 143);
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  margin: 0; 
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  border: 1px solid #9596b9;
+  background-color: #9596b9;
+  border-radius:  25%;
+  margin: 0 100px -40px 100px;
+  text-align: center;
+}
+
+
+.main {
+  border: 1px solid #9596b9;
+  background-color: #9596b9;
+  margin: 5px 100px -75px 100px;
+  z-index: 2;
+}
+
+.nav-link {
+color: black;
+font-size: 30px;
+font-weight: 600;
+}
+
+.nav-link:hover {
+color: blue;
+}
+
+.footer {
+  border: 1px solid #9596b9;
+  background-color: #9596b9;
+  border-radius: 25%;
+  margin: 0 100px 100px 100px;
+  box-sizing: border-box;
+  padding: 0 100px 0 100px;
+  z-index:  1;
+}
+
+.my-name {
+font-weight: bolder;
+font-size: 50px;
+text-align: center;
+}
+
+.container {
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+html {
+  scroll-behavior: smooth; 
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  float: left;
+  margin-left: 150px;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+}
+
+.nav-link {
+  transition: .3s;
+}
+
+.section-item a {
+  color: #829985;
+  text-decoration: none;  
+  transition: color 0.5s;
+}
+
+.section-item a:hover {
+  color: #020000;
+}
+
+.section-code {
+  border: 1px solid rgb(103, 164, 221);
+  border-radius: 10%;
+  margin: 0 700px 0 10px;
+  background-color: rgb(136, 179, 219);
+  padding-left: 20px;
+  font-size: 18px;
+}
+
+.my-image {
+  position: relative;
+  float: left;
+  margin: 0 0 10px 10px;
+}
+
+.list {
+  list-style: none; 
+}
+
+.a2 {
+  color: rgb(5, 36, 175);
+}
+
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+
+.contacts {
+  border: 1px solid aliceblue;
+  border-radius: 10%;
+  list-style: none;
+  margin: 0 100px 0 900px;
+  background-color: aliceblue;
+  
+}
+
+.contacts-word {
+  display: block;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.about-me {
+  border: 1px solid rgb(136, 179, 219);
+  border-radius: 10%;
+  list-style: none;
+  margin: 0 700px 0 10px;
+  background-color: rgb(136, 179, 219);
+  padding-left: 20px;
+}
+
+.my-strengths {
+  font-size: 140%;
+  padding: 0 0 0 10px;
+}
+
+.my-strenghts-lis-1 {
+list-style: none;
+padding: 10px 0 0 100px;
+}
+
+.my-strenghts-lis-2 {
+list-style: none;
+padding: 10px 0 0 200px;
+}
+
+.my-strenghts-lis-3 {
+list-style: none;
+padding: 10px 0 0 300px;
+}
+
+.my-strenghts-lis-4 {
+list-style: none;
+padding: 10px 0 0 400px;
+}
+
+.skills {
+border: 1px solid rgb(246, 248, 116);
+border-radius: 13%;
+margin: 0 100px 0 900px;
+background-color: rgb(246, 248, 116);
+}
+
+.skills-word {
+padding: 0 0 0 100px;
+}
+
+.my-image {
+  border-radius: 50%;
+}
+
+.year {
+  text-align: center;
+  font-size: 100px;
+}
+
+.education {
+  border: 1px solid rgb(246, 248, 116);
+  border-radius: 10%;
+  list-style: none;
+  margin: 0 10px 0 800px;
+  background-color: rgb(246, 248, 116);
+  padding: 10px 0 10px 10px;
+}
+
+.education-list {
+  padding-left: 10px;
+}
+
+.languages {
+  border: 1px solid aliceblue;
+  border-radius: 10%;
+  list-style: none;
+  margin: 0 800px 50px 10px;
+  background-color: aliceblue;
+  padding: 10px 0 10px 10px;
+}
+
+.languages-list{
+  padding-left: 20px;
+}
+
+.nav {
+  height: 100px;
+}
+
